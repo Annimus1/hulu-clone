@@ -12,7 +12,8 @@ import HeaderItem from './HeaderItem'
 
 function Header() {
   return (
-    <header className='flex flex-col sm:flex-row m-5 justify-between items-center h-auto' >
+    {/*flex flex-col sm:flex-row m-5 justify-between items-center h-auto*/}
+    <header className='flex mt-5 sm:flex-row-reverse md:justify-between md:flex-row items-center text-center' >
      <div className='flex flex-grow justify-evenly max-w-2xl'>
         <HeaderItem title='HOME' Icon={HomeIcon}/>
         <HeaderItem title='TRENDING' Icon={LightningBoltIcon}/>
